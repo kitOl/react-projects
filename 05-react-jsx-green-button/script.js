@@ -1,8 +1,8 @@
-const App = (props) => {
+const App = ({ initialButtonText, initialButtonColor }) => {
   // console.log("props", props);
-  const { initialButtonText } = props;
+  // const { initialButtonText } = props;
   const [buttonText, setButtonText] = React.useState(initialButtonText);
-  const [buttonColor, setButtonColor] = React.useState("");
+  const [buttonColor, setButtonColor] = React.useState(initialButtonColor);
   // console.log(buttonColor);
 
   const onButtonClick = () => {
@@ -23,4 +23,4 @@ const App = (props) => {
 
 const container = document.getElementById("app");
 const root = ReactDOM.createRoot(container);
-root.render(<App initialButtonText="Click me" />);
+root.render(<App initialButtonText="Click me" initialButtonColor="" />);
