@@ -1,5 +1,12 @@
 # Book Library App
 
+## How To
+
+`npm i @reduxjs/toolkit react-redux`
+
+`npm i uuid`
+for id generate
+
 ## Available Scripts
 
 In the project directory, you can run:
