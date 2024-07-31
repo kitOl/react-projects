@@ -7,6 +7,8 @@
 `npm i uuid`
 for id generate
 
+`npm i react-icons`
+
 ## Available Scripts
 
 In the project directory, you can run:
