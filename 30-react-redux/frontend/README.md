@@ -9,6 +9,8 @@ for id generate
 
 `npm i react-icons`
 
+`npm i axios`
+
 ## Available Scripts
 
 In the project directory, you can run:
