@@ -11,6 +11,8 @@ for id generate
 
 `npm i axios`
 
+'npm i react-toastify'
+
 ## Available Scripts
 
 In the project directory, you can run:
